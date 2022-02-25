@@ -984,7 +984,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _input: {fileID: 11400000, guid: 9a86639b0af175147b0c615a4dd13e87, type: 2}
+  _inputJump: {fileID: 11400000, guid: b39e4388d32631344988d18fc2fa8580, type: 2}
   _animator: {fileID: 5688781261346569763}
+  _jumpForce: 5
+  _lenghtRayOnGround: 0.21
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &8568491116226984584
 MonoBehaviour:
   m_ObjectHideFlags: 0

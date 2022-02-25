@@ -23,11 +23,11 @@ public class ObsticlePush : MonoBehaviour
             Rigidbody attachedRigidbody = hit.collider.attachedRigidbody;
             if (attachedRigidbody != null)
             {
-                var position = transform.position;
-                Vector3 forceDirection =  - position;
+               
+                Vector3 forceDirection =hit.collider.transform.position-transform.position;
                 forceDirection.y = 0;
                 forceDirection.Normalize();
-                attachedRigidbody.AddForceAtPosition(forceDirection,hit.collider.transform.position- position, ForceMode.Impulse);
+                attachedRigidbody.AddForceAtPosition(forceDirection*_forceMantitude,transform.position, ForceMode.Impulse);
             }
         }
     }

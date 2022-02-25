@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _forceMantitude: 1
-  _lenghtRay: 1
+  _lenghtRay: 2
   _layerMask:
     serializedVersion: 2
     m_Bits: 4294967295
