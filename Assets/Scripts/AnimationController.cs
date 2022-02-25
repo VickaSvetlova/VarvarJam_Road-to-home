@@ -28,8 +28,8 @@ public class AnimationController : MonoBehaviour
     private void Update()
     {
         Move();
-        GroundCheck();
-        Jump();
+        //GroundCheck();
+       // Jump();
     }
 
     private void Jump()
