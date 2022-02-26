@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DistanceFog
+  m_Shader: {fileID: 4800000, guid: bc18395cf50974c12bb3900d27bb2aef, type: 3}
+  m_ShaderKeywords: HEIGHT_FOG NOISE RAYMARCH
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VolumetricNoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DEBUG: 0
+    - _Extinction: 0.18
+    - _FOG_ONLY: 0
+    - _FogDensity: 0
+    - _HEIGHT_FOG: 1
+    - _HeightFogDropoff: 1.71
+    - _HeightFogFloor: 0
+    - _LightPower: 1
+    - _LightScatter: 0
+    - _MaxDistance: 8
+    - _MeiGFloat: 0.319
+    - _NOISE: 1
+    - _NoiseExponent: 2.28
+    - _NoiseScale: 8.38
+    - _Presence: 0.68
+    - _RAYMARCH: 1
+    - _Range: 0.5
+    - _SampleCount: 48
+    - _Scattering: 4
+    - _SkyBoxExtinction: 0.7
+    - _USE_MAX_DISTANCE: 0
+    m_Colors:
+    - _Extinction: {r: 1, g: 1, b: 1, a: 1}
+    - _ExtinctionTint: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NoiseSpeed: {r: 0.05, g: 0, b: 0.05, a: 1}
+    - _Scattering: {r: 0, g: 0.5, b: 0.5, a: 1}
+    - _ScatteringTint: {r: 0.24528301, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
