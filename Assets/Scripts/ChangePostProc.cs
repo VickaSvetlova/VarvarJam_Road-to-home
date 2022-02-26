@@ -15,14 +15,17 @@ public class ChangePostProc : MonoBehaviour {
     [SerializeField] private VolumeFogFeature fogFeature;
 
 
+    public bool isWar = false;
+
+
     void Update() {
         if (Input.GetButtonDown("Fire2")) {
-            if (volume.profile == profilePeace) {
-                volume.profile = profileWar;
-                fogFeature.SetActive(true);
-            } else {
+            if (isWar) {
                 volume.profile = profilePeace;
                 fogFeature.SetActive(false);
+            } else {
+                volume.profile = profileWar;
+                fogFeature.SetActive(true);
             }
         }
     }
