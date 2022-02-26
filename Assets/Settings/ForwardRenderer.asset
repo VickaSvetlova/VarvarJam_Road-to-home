@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b78ddc2f5553042c98baa7a44524aac8, type: 3}
   m_Name: NewVolumeFogFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     Event: 500
     volumeFogMaterial: {fileID: 2100000, guid: 655a569bd9849a34f891d1d5f03214fa, type: 2}

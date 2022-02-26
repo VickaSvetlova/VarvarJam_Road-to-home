@@ -22,6 +22,9 @@ public class InteractebleController : MonoBehaviour
     public UnityEvent _eventEnd;
     [SerializeField] private float _distanceInteracteble;
 
+    private Collider iobjectCollider;
+    private IDetectableObject iobject;
+
     private void OnEnable()
     {
         _camera = Camera.main;
@@ -43,38 +46,32 @@ public class InteractebleController : MonoBehaviour
 
     private void Update()
     {
-        RayCast();
-        Debug.DrawRay(_camera.transform.position, _camera.transform.forward * _lenghtRay, Color.green);
+        if (_isUse.Value && iobject != null) {
+            iobject?.OnRise();
+            _onDialog.Value = true;
+        }
     }
 
-    private void RayCast()
-    {
-        //Ray ray = _camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0) + _offsetPositionAim);
+    private void OnTriggerEnter(Collider other) {
+        var objectDetect = other.GetComponent<IDetectableObject>();
+        if (objectDetect != null) {
+            iobjectCollider = other;
+            iobject = objectDetect;
+            _onSpeach.Event?.Invoke(true);
 
-        RaycastHit hit;
-        var raycast = Physics.Raycast(transform.position, transform.forward, out hit, _distanceInteracteble, _layerMask);
-        if (raycast)
-        {
-            var objectDetect = hit.collider.GetComponent<IDetectableObject>();
-            if (objectDetect != null && Vector3.Distance(transform.position, hit.point) < _distanceInteracteble)
-            {
-                _onSpeach.Event?.Invoke(true);
-
-                if (_isUse.Value)
-                {
-                    objectDetect?.OnRise();
-                    _onDialog.Value = true;
-                }
+            if (_isUse.Value) {
+                objectDetect?.OnRise();
+                _onDialog.Value = true;
             }
         }
-        else
-        {
+    }
+
+    private void OnTriggerExit(Collider other) {
+        if (iobjectCollider == other) {
             _onSpeach.Event?.Invoke(false);
+            iobjectCollider = null;
+            iobject = null;
         }
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawRay(transform.position, transform.forward * _distanceInteracteble);
-    }
 }

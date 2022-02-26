@@ -12,7 +12,7 @@ public class ControlInput : MonoBehaviour
 
     void Update()
     {
-        _use.Value = Input.GetMouseButton(0);
+        _use.Value = Input.GetKey(KeyCode.E);
         if (_dialogActive.Value) return;
         _vector.Value.x = Input.GetAxis("Horizontal");
         _vector.Value.y = Input.GetAxis("Vertical");

@@ -15,6 +15,7 @@ public class SampleUse : MonoBehaviour, IDetectableObject
     [SerializeField] private SOBoolData _onDialog;
     [SerializeField] private string _nameValueQuest;
     [SerializeField] private SOIntData _valueQuest;
+    [SerializeField] private SOEventBool _onSpeach;
     private bool _isActive = true;
 
     public void SetState(bool state)
@@ -47,6 +48,7 @@ public class SampleUse : MonoBehaviour, IDetectableObject
         _isConversation = true;
         _onDialog.Value = true;
         _use?.Invoke();
+        _onSpeach.Event?.Invoke(false);
     }
 
     public void DialogExit()
