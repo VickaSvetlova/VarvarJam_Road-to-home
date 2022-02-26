@@ -23,9 +23,11 @@ public class ChangePostProc : MonoBehaviour {
             if (isWar) {
                 volume.profile = profilePeace;
                 fogFeature.SetActive(false);
+                isWar = false;
             } else {
                 volume.profile = profileWar;
                 fogFeature.SetActive(true);
+                isWar = true;
             }
         }
     }
