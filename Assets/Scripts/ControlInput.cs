@@ -17,6 +17,6 @@ public class ControlInput : MonoBehaviour
         _vector.Value.x = Input.GetAxis("Horizontal");
         _vector.Value.y = Input.GetAxis("Vertical");
         _jump.Value = Input.GetKey(KeyCode.Space);
-        Debug.Log("use " + _use.Value);
+   //     Debug.Log("use " + _use.Value);
     }
 }
