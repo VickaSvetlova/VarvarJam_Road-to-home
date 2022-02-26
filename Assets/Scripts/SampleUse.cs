@@ -1,6 +1,7 @@
 using System;
 using DialogueEditor;
 using Scripts.Interfaces;
+using Scripts.SO;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
@@ -14,7 +15,8 @@ public class SampleUse : MonoBehaviour, IDetectableObject
     [SerializeField] private SOBoolData _onDialog;
     [SerializeField] private string _nameValueQuest;
     [SerializeField] private SOIntData _valueQuest;
-    private bool _isActive=true;
+    private bool _isActive = true;
+
     public void SetState(bool state)
     {
         _isActive = state;
@@ -31,6 +33,7 @@ public class SampleUse : MonoBehaviour, IDetectableObject
         {
             return;
         }
+
         if (!_isConversation)
         {
             _camera.SetActive(true);
