@@ -7,6 +7,11 @@ namespace Scripts.SO
     [CreateAssetMenu(fileName = "SOEvent", menuName = "ScriptebleObject/SOEvent")]
     public class SOEventBool : ScriptableObject
     {
-        public  Action<bool> Event;
+        public Action<bool> Event;
+
+        public void SetValue(bool stat)
+        {
+            Event?.Invoke(stat);
+        }
     }
 }

@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 7304404843946520692}
   - component: {fileID: 540703769577105977}
-  - component: {fileID: 7555567290583292425}
-  - component: {fileID: 4083745933119119318}
   - component: {fileID: 4420687537969827311}
   - component: {fileID: 3254740207618041172}
+  - component: {fileID: 7880084717626843377}
+  - component: {fileID: 4831122407031793126}
+  - component: {fileID: 2962973095644484590}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -51,92 +52,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &7555567290583292425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4797136979331662684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: bb0478e700a372749967ee98c6f71662, type: 2}
-        m_TargetAssemblyTypeName: SOIntData, Assembly-CSharp
-        m_MethodName: SetValue
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 5462408513680029243}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  NodeID: 1
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
---- !u!114 &4083745933119119318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4797136979331662684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: cef3cb71e3cff6c46971b4c40a63ae75, type: 2}
-        m_TargetAssemblyTypeName: SOIntData, Assembly-CSharp
-        m_MethodName: Extract
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 5462408513680029241}
-        m_TargetAssemblyTypeName: SampleUse, Assembly-CSharp
-        m_MethodName: SetState
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  NodeID: 2
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
@@ -202,6 +117,99 @@ MonoBehaviour:
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
+--- !u!114 &7880084717626843377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797136979331662684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 6
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &4831122407031793126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797136979331662684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 7
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &2962973095644484590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797136979331662684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ChangeTransform
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  NodeID: 8
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &5462408513680029243
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,26 +256,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 6
-  json: "{\"Options\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":515,\"yPos\":188},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0412\u0437\u044F\u0442\u044C\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":229,\"yPos\":189},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u041D\u0435
-    \u0431\u0440\u0430\u0442\u044C\",\"parentUIDs\":[0],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":405.9286,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0410
-    \u0432\u043E\u0442 \u0438 \u0432\u043A\u0443\u0441\u043D\u044F\u0448\u043A\u0430
-    \u0434\u043B\u044F \u043A\u043E\u0442\u0430\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+  CurrentIDCounter: 9
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":433.642883,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u043A\u043B\u044E\u0447\u0438\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":405,\"yPos\":126},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0434\u0435\u043D\u044C\u0433\u0438\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":455,\"yPos\":258},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0442\u0435\u043B\u0435\u0444\u043E\u043D\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":419,\"yPos\":363},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\u0432\u0440\u043E\u0434\u0435
+    \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0437\u0430\u0431\u044B\u043B\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 540703769577105977}
-  - {fileID: 7555567290583292425}
-  - {fileID: 4083745933119119318}
   - {fileID: 4420687537969827311}
   - {fileID: 3254740207618041172}
+  - {fileID: 7880084717626843377}
+  - {fileID: 4831122407031793126}
+  - {fileID: 2962973095644484590}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ChangeTransform
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &5462408513680029241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,8 +341,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5462408513680029243}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0761747, y: 2.4572182, z: 0.5909668}
+  m_Center: {x: -0.5419328, y: 0.7286091, z: 0.20451875}
