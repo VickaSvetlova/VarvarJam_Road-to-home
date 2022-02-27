@@ -130,6 +130,7 @@ MonoBehaviour:
   _nameValueQuest: 
   _valueQuest: {fileID: 0}
   _onSpeach: {fileID: 11400000, guid: 22d2892f77d7ca645bc871592623e8dc, type: 2}
+  _isActive: 1
 --- !u!65 &5462408513680029242
 BoxCollider:
   m_ObjectHideFlags: 0
