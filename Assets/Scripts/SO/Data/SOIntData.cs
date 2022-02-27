@@ -11,4 +11,14 @@ internal class SOIntData : ScriptableObject
     {
         Value = state;
     }
+
+    public void Add(int i)
+    {
+        Value += i;
+    }
+
+    public void Extract(int i)
+    {
+        Value -= i;
+    }
 }

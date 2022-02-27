@@ -37,7 +37,11 @@ public class SampleUse : MonoBehaviour, IDetectableObject
 
         if (!_isConversation)
         {
-            _camera.SetActive(true);
+            if (_camera != null)
+            {
+                _camera.SetActive(true);
+            }
+
             ConversationManager.Instance.StartConversation(_thisConversation);
             if (_valueQuest)
             {
@@ -53,7 +57,10 @@ public class SampleUse : MonoBehaviour, IDetectableObject
 
     public void DialogExit()
     {
-        _camera.SetActive(false);
+        if (_camera != null)
+        {
+            _camera.SetActive(false);
+        }
 
 // _isConversation = false;
         _onDialog.Value = false;
