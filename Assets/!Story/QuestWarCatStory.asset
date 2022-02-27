@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b80aafc1c8fe4f8283e748163532ac89, type: 3}
-  m_Name: Cat
+  m_Script: {fileID: 11500000, guid: b8a6a45710834bb6a294ec38114a6320, type: 3}
+  m_Name: QuestWarCatStory
   m_EditorClassIdentifier: 
