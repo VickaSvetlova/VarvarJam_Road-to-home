@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform _spawnPositionPlayer;
 
 
-    private void Start()
+    private void OnEnable()
     {
         CreatePlayer(_playerPref);
     }

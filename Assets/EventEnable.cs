@@ -8,18 +8,21 @@ using UnityEngine.Events;
 public class EventEnable : MonoBehaviour
 {
     [SerializeReference] private SOEventBool _stateCursour;
+    [SerializeField] private float _timeToStart = 1;
     public UnityEvent _event;
 
     private void OnEnable()
     {
-        Invoke("EventAction", 2);
+        Invoke("EventAction", _timeToStart);
     }
 
     private void EventAction()
     {
-        if (_event == null) return;
         _event?.Invoke();
-        _stateCursour.Event?.Invoke(true);
+        if (_stateCursour != null)
+        {
+            _stateCursour.Event?.Invoke(true);
+        }
         enabled = false;
     }
 }

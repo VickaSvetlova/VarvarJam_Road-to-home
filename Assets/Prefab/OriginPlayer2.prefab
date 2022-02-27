@@ -4854,6 +4854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4ac2bbdd4454064baae65e76ca648a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _visiblePlayer: {fileID: 11400000, guid: 07fb3091f5fe34846b9a462eee2bc966, type: 2}
   _bodyPart:
   - {fileID: 1968800163524202716}
   - {fileID: 1968800163524202696}

@@ -2,7 +2,6 @@ using System;
 using DialogueEditor;
 using Scripts.Interfaces;
 using Scripts.SO;
-using UnityEditor.Scripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -78,5 +77,11 @@ public class InteractebleController : MonoBehaviour
             iobjectCollider = null;
             iobject = null;
         }
+    }
+
+    private void OnDisable()
+    {
+        ConversationManager.OnConversationStarted -= DialogStart;
+        ConversationManager.OnConversationEnded -= DialogExit;
     }
 }

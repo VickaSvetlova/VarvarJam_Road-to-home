@@ -10,15 +10,23 @@ internal class SOIntData : ScriptableObject
     public void SetValue(int state)
     {
         Value = state;
+        DebugLog();
     }
 
     public void Add(int i)
     {
         Value += i;
+        DebugLog();
     }
 
     public void Extract(int i)
     {
         Value -= i;
+        DebugLog();
+    }
+
+    private void DebugLog()
+    {
+        Debug.Log(name + " " + Value);
     }
 }

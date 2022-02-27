@@ -88,7 +88,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3065169201891593674}
-  m_LocalRotation: {x: -0, y: 0.4099131, z: -0, w: -0.91212463}
+  m_LocalRotation: {x: 0, y: 0.40991506, z: -0, w: -0.91212374}
   m_LocalPosition: {x: -32.83091, y: -0.00000047683716, z: 10.74156}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -102,6 +102,7 @@ Transform:
   - {fileID: 3063747198108314320}
   - {fileID: 3063705525761725652}
   - {fileID: 3069936005627155460}
+  - {fileID: 2855682393869007588}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 311.601, z: 0}
@@ -2766,3 +2767,73 @@ Transform:
   m_Father: {fileID: 3070079448881126904}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7317812734675265392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3069850601428400866}
+    m_Modifications:
+    - target: {fileID: 2650945124593733367, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3129253249236339732}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950488, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: m_Name
+      value: WarMatherSoldier
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769166770843950491, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3129253249236339732}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+--- !u!4 &2855682393869007588 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4769166770843950484, guid: add7a25ccd0115647ba2e0214ed6e122, type: 3}
+  m_PrefabInstance: {fileID: 7317812734675265392}
+  m_PrefabAsset: {fileID: 0}

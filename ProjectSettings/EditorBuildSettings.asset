@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/City.unity
+    guid: f0effb7faba04144f9a6342e305217ce
+  - enabled: 1
+    path: Assets/Scenes/CityGood.unity
+    guid: 867cf70fa1fb6d042950bb49780d2782
+  - enabled: 1
+    path: Assets/Scenes/CityApokalypse.unity
+    guid: b89e47ef34774524e8d3e0e228fca151
+  - enabled: 1
+    path: Assets/Scenes/CityApokalypseBad.unity
+    guid: 129c5d6d55acac843a86181233595877
   m_configObjects: {}

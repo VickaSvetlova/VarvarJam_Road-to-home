@@ -68,4 +68,9 @@ public class SampleUse : MonoBehaviour, IDetectableObject
     {
         _isConversation = false;
     }
+
+    private void OnDisable()
+    {
+        ConversationManager.OnConversationEnded -= DialogExit;
+    }
 }

@@ -38,8 +38,8 @@ public class ChangePostProc : MonoBehaviour {
 
 
     void Update() {
-        if (Input.GetButtonDown("Fire2")) {
-            ChangeAmbient(!isWar);
-        }
+        // if (Input.GetButtonDown("Fire2")) {
+        //     ChangeAmbient(!isWar);
+        // }
     }
 }

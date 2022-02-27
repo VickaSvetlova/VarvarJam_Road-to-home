@@ -2622,7 +2622,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4017967899979731981}
-  m_LocalRotation: {x: -0, y: -0.73848355, z: -0, w: -0.6742715}
+  m_LocalRotation: {x: -0, y: -0.7384849, z: 0, w: -0.67427}
   m_LocalPosition: {x: -49.0907, y: 0.164, z: 13.926358}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2645,6 +2645,7 @@ Transform:
   - {fileID: 4023066988521357015}
   - {fileID: 4020072350076438361}
   - {fileID: 4023394847503658151}
+  - {fileID: 292491665140402148}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -264.79498, z: 0}
@@ -4012,3 +4013,97 @@ Transform:
   m_Father: {fileID: 4020098923405527109}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4069789855950515932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4020052296597122457}
+    m_Modifications:
+    - target: {fileID: 4356651895916325172, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_Name
+      value: grandma and cat (War) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325175, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 3903916627747307505}
+    - target: {fileID: 4356651895916325175, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559891666514357901, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 3903916627747307505}
+    - target: {fileID: 6559891666514357901, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559891666514357938, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 3903916627747307505}
+    - target: {fileID: 6559891666514357938, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559891666514357939, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 3903916627747307505}
+    - target: {fileID: 6559891666514357939, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+--- !u!4 &292491665140402148 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4356651895916325176, guid: 5891fe4ffc881634ab374d7b03cc10ab, type: 3}
+  m_PrefabInstance: {fileID: 4069789855950515932}
+  m_PrefabAsset: {fileID: 0}

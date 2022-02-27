@@ -863,7 +863,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5579024302461713169}
-  m_LocalRotation: {x: -0, y: 0.21124464, z: -0, w: -0.9774332}
+  m_LocalRotation: {x: 0, y: 0.21124786, z: -0, w: -0.97743255}
   m_LocalPosition: {x: -101.88562, y: 0, z: 38.617332}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -877,6 +877,7 @@ Transform:
   - {fileID: 5579024302462054301}
   - {fileID: 5579024302462054869}
   - {fileID: 5579024302461959485}
+  - {fileID: 8422303584341085248}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -384.391, z: 0}
@@ -2766,3 +2767,85 @@ Transform:
   m_Father: {fileID: 5579024302462069281}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &9158758334478075070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5579024302461947313}
+    m_Modifications:
+    - target: {fileID: 862573823412701425, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5579024302458753585}
+    - target: {fileID: 862573823412701426, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_Name
+      value: Friend War
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701427, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951638783245130376, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5579024302458753585}
+    - target: {fileID: 5714741518366622682, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5579024302458753585}
+    - target: {fileID: 8723101553266881028, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5579024302458753585}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+--- !u!4 &8422303584341085248 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 862573823412701438, guid: 0c16040622669e0458836b14faa893c4, type: 3}
+  m_PrefabInstance: {fileID: 9158758334478075070}
+  m_PrefabAsset: {fileID: 0}
