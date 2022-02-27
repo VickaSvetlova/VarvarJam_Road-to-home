@@ -12,21 +12,35 @@ public class ChangePostProc : MonoBehaviour {
     [SerializeField] private VolumeProfile profilePeace;
     [SerializeField] private VolumeProfile profileWar;
 
-    [SerializeField] private VolumeFogFeature fogFeature;
+    [SerializeField] private VolumeFogFeature fogFeaturePeace;
+    [SerializeField] private VolumeFogFeature fogFeatureWar;
 
 
     public bool isWar = false;
+
+
+    private void Start() {
+        if (isWar) {
+
+        }
+    }
+
+    void ChangeAmbient() {
+
+    }
 
 
     void Update() {
         if (Input.GetButtonDown("Fire2")) {
             if (isWar) {
                 volume.profile = profilePeace;
-                fogFeature.SetActive(false);
+                fogFeatureWar.SetActive(false);
+                fogFeaturePeace.SetActive(true);
                 isWar = false;
             } else {
                 volume.profile = profileWar;
-                fogFeature.SetActive(true);
+                fogFeatureWar.SetActive(true);
+                fogFeaturePeace.SetActive(false);
                 isWar = true;
             }
         }
