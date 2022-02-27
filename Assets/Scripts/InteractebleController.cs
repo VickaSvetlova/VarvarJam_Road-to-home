@@ -46,32 +46,37 @@ public class InteractebleController : MonoBehaviour
 
     private void Update()
     {
-        if (_isUse.Value && iobject != null) {
+        if (_isUse.Value && iobject != null)
+        {
             iobject?.OnRise();
             _onDialog.Value = true;
         }
     }
 
-    private void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other)
+    {
         var objectDetect = other.GetComponent<IDetectableObject>();
-        if (objectDetect != null) {
+        if (objectDetect != null && other.GetComponent<SampleUse>()._isActive)
+        {
             iobjectCollider = other;
             iobject = objectDetect;
             _onSpeach.Event?.Invoke(true);
 
-            if (_isUse.Value) {
+            if (_isUse.Value)
+            {
                 objectDetect?.OnRise();
                 _onDialog.Value = true;
             }
         }
     }
 
-    private void OnTriggerExit(Collider other) {
-        if (iobjectCollider == other) {
+    private void OnTriggerExit(Collider other)
+    {
+        if (iobjectCollider == other)
+        {
             _onSpeach.Event?.Invoke(false);
             iobjectCollider = null;
             iobject = null;
         }
     }
-
 }

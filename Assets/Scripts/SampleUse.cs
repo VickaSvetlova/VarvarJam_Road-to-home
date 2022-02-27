@@ -16,7 +16,7 @@ public class SampleUse : MonoBehaviour, IDetectableObject
     [SerializeField] private string _nameValueQuest;
     [SerializeField] private SOIntData _valueQuest;
     [SerializeField] private SOEventBool _onSpeach;
-    private bool _isActive = true;
+    public bool _isActive = true;
 
     public void SetState(bool state)
     {
@@ -30,10 +30,7 @@ public class SampleUse : MonoBehaviour, IDetectableObject
 
     public void OnRise()
     {
-        if (!_isActive)
-        {
-            return;
-        }
+        if (!_isActive) return;
 
         if (!_isConversation)
         {
