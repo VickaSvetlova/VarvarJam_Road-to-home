@@ -20,29 +20,26 @@ public class ChangePostProc : MonoBehaviour {
 
 
     private void Start() {
-        if (isWar) {
-
-        }
+        ChangeAmbient(isWar);
     }
 
-    void ChangeAmbient() {
-
+    void ChangeAmbient(bool war) {
+        isWar = war;
+        if (war) {
+            volume.profile = profileWar;
+            fogFeatureWar.SetActive(true);
+            fogFeaturePeace.SetActive(false);
+        } else {
+            volume.profile = profilePeace;
+            fogFeatureWar.SetActive(false);
+            fogFeaturePeace.SetActive(true);
+        }
     }
 
 
     void Update() {
         if (Input.GetButtonDown("Fire2")) {
-            if (isWar) {
-                volume.profile = profilePeace;
-                fogFeatureWar.SetActive(false);
-                fogFeaturePeace.SetActive(true);
-                isWar = false;
-            } else {
-                volume.profile = profileWar;
-                fogFeatureWar.SetActive(true);
-                fogFeaturePeace.SetActive(false);
-                isWar = true;
-            }
+            ChangeAmbient(!isWar);
         }
     }
 }
