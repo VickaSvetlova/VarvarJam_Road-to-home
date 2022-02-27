@@ -37,6 +37,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
             if (!m_Jump)
             {
+                return;
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
         }
