@@ -13,7 +13,7 @@ public class FinalCarma : MonoBehaviour
 
     private void PrintLabel()
     {
-        var finalCarma = 100 * _carma.Value / 10;
+        var finalCarma = 100 * _carma.Value / 14;
         _label.text = "Ты был человеком на " + finalCarma + "%";
     }
 }
