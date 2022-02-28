@@ -18,11 +18,16 @@ public class EventEnable : MonoBehaviour
 
     private void EventAction()
     {
-        _event?.Invoke();
+        if (_event != null)
+        {
+            _event?.Invoke();
+        }
+
         if (_stateCursour != null)
         {
             _stateCursour.Event?.Invoke(true);
         }
+
         enabled = false;
     }
 }

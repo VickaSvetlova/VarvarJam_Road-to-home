@@ -8,6 +8,12 @@ public class FinalCarma : MonoBehaviour
 
     private void OnEnable()
     {
-        _label.text = "Ты был человеком на " + (100 * (_carma.Value / 10)) + "%";
+        PrintLabel();
+    }
+
+    private void PrintLabel()
+    {
+        var finalCarma = 100 * _carma.Value / 10;
+        _label.text = "Ты был человеком на " + finalCarma + "%";
     }
 }

@@ -21,4 +21,9 @@ public class HideObject : MonoBehaviour
             body.SetActive(stat);
         }
     }
+
+    private void OnDisable()
+    {
+        _visiblePlayer.Event -= VisiblePaths;
+    }
 }

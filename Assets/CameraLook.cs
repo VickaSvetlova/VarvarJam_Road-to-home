@@ -1,3 +1,4 @@
+using System;
 using Scripts.SO;
 using UnityEngine;
 
@@ -25,5 +26,10 @@ public class CameraLook : MonoBehaviour
             _cameraTps.SetActive(true);
             _cameraFPS.SetActive(false);
         }
+    }
+
+    private void OnDisable()
+    {
+        _switchCam.Event -= SwitchCam;
     }
 }

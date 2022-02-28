@@ -26,6 +26,13 @@ public class LoadLevel : MonoBehaviour
         isLoad = true;
     }
 
+    public void OnLoadConcreteLevel(string name)
+    {
+        if (isLoad) return;
+        StartCoroutine(LoadYourAsyncScene(name));
+        isLoad = true;
+    }
+
     IEnumerator LoadYourAsyncScene(string name)
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(name);
