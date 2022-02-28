@@ -27,6 +27,7 @@ internal class SOIntData : ScriptableObject
 
     private void DebugLog()
     {
+    if(Value<0) Value=0;
         Debug.Log(name + " " + Value);
     }
 }
